@@ -1,0 +1,5 @@
+length 20
+time 5000
+delta_t 100
+gravity 0.0
+surface_tension 0.01
