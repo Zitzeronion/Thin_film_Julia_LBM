@@ -1,0 +1,19 @@
+name: automated_integration.yml
+description: Automated building and running
+author: Stefan Zitz
+
+on:
+        schedule:
+                - cron: `*/5 * * * *´
+
+jobs:
+        build:
+                runs-on: ubuntu-latest
+                steps:
+                        - name: Setup Julia environment
+                        uses: julia-actions/setup-julia@v1.4.0
+                        - name: Build
+                        uses: julia-actions/julia-buildpkg@master
+                        - name: Run
+                        run: julia --project src/hello.jl
+
