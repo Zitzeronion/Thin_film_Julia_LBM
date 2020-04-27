@@ -1,2 +1,2 @@
-# Thin_film_Julia_LBM
-Lattice Boltzmann solver for thin liquid film flows written in Julia
+# Julia Thin Film Lattice Boltzmann
+Lattice Boltzmann solver for thin liquid film flows written in [Julia](https://julialang.org/).
