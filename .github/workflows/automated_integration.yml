@@ -11,9 +11,9 @@ jobs:
                 runs-on: ubuntu-latest
                 steps:
                         - name: Setup Julia environment
-                        - uses: julia-actions/setup-julia@v1.1.4
+                          uses: julia-actions/setup-julia@v1.1.4
                         - name: 'Build'
-                        - uses: julia-actions/julia-buildpkg@master
+                          uses: julia-actions/julia-buildpkg@master
                         - name: 'Run'
-                        - run: julia --project src/hello.jl
+                          run: julia --project src/hello.jl
 
