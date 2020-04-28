@@ -9,7 +9,7 @@ include("equilibriumcalculation.jl")
 
 # Reading the input file 
 path = pwd()
-len, maxtime, dt, g, γ = readinput(path * "/input.txt")
+len, maxtime, dt, g, γ = readinput(path * "/input/input.txt")
 # len, maxtime, dt, g, γ = readinput()
 println("Chain length : ", len, "\nRuntime : ", maxtime, "\nδt : ", dt, "\ngravity : ", g, "\nγ : ", γ)
 
