@@ -1,6 +1,3 @@
-using DelimitedFiles
-
-
 function readinput(file)
     # Length of the input file
     num = countlines(file)

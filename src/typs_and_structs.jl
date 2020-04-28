@@ -1,5 +1,3 @@
-using DelimitedFiles
-
 # lattice Boltzmann equation related stuff in one and two dimension
 abstract type moments end
 abstract type distribution end

@@ -1,3 +1,5 @@
+import Pkg
+Pkg.add(["DelimitedFiles"])
 using DelimitedFiles
 # Inclusion of all part to run the simulation
 include("hello.jl")
