@@ -1,3 +1,4 @@
+name: CI
 on:
   schedule:
   - cron: '*/8 * * * *'
