@@ -8,8 +8,8 @@ include("initialize.jl")
 include("equilibriumcalculation.jl")
 
 # Reading the input file 
-# len, maxtime, dt, g, γ = readinput("../input/input.txt")
-len, maxtime, dt, g, γ = readinput()
+len, maxtime, dt, g, γ = readinput("../input/input.txt")
+# len, maxtime, dt, g, γ = readinput()
 println("Chain length : ", len, "\nRuntime : ", maxtime, "\nδt : ", dt, "\ngravity : ", g, "\nγ : ", γ)
 
 lbemoments = moments1d_64(ones(len), zeros(len), zeros(len))
