@@ -14,5 +14,3 @@ jobs:
         version: '1.4.0'
     - uses: julia-actions/julia-buildpkg@master
     - run: julia --project src/main.jl
-
-# CODECOV_TOKEN="e8d9f90c-95ef-441b-aefd-799401e65966"
