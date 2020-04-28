@@ -8,7 +8,7 @@ include("initialize.jl")
 include("equilibriumcalculation.jl")
 
 # Reading the input file 
-# num = countlines("../input/input.txt")
+pwd()
 len, maxtime, dt, g, γ = readinput("../input/input.txt")
 println("Chain length : ", len, "\nRuntime : ", maxtime, "\nδt : ", dt, "\ngravity : ", g, "\nγ : ", γ)
 
